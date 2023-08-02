@@ -1,0 +1,1 @@
+# chatgptplugin-pokeapi
