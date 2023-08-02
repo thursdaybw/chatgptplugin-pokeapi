@@ -1,0 +1,20 @@
+{
+    "name": "thursdaybw/pokecard",
+    "description": "Gets pokemon cards",
+    "type": "project",
+    "require": {
+        "symfony/http-foundation": "^5.4",
+        "guzzlehttp/guzzle": "^7.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thursdaybw\\Pokecard\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bevan Wishart",
+            "email": "bevan.wishart@gmail.com"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+name: chatgptplugin
+recipe: lamp
+config:
+  webroot: web
+services:
+  appserver:
+    portforward: true
+    build_as_root:
+      - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer

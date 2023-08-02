@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "v1",
+  "nameForHuman": "Random Pok?mon Card Plugin",
+  "nameForModel": "random_pokemon_card",
+  "descriptionForHuman": "Plugin for fetching a random Pok?mon card.",
+  "descriptionForModel": "Plugin for fetching a random Pok?mon card.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "http://localhost:3333/openapi.yaml"
+  },
+  "isUserAuthenticated": false,
+  "logoUrl": "http://localhost:3333/logo.png",
+  "contactEmail": "support@example.com",
+  "legalInfoUrl": "http://www.example.com/legal"
+}
