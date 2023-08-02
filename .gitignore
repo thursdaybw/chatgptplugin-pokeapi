@@ -1,0 +1,23 @@
+# Ignore vendor directory
+/vendor/
+
+# Ignore PhpStorm project files
+/.idea/
+
+# Ignore Vim swap files
+*.swp
+*~
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Composer's .lock file (optional - some teams prefer to commit this)
+# /composer.lock
+
+# Ignore environment variables
+.env
+
+# Ignore PHPStorm's phpunit output
+/.phpunit.result.cache
+
